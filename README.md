@@ -1,6 +1,6 @@
-# Particle Jekyll Theme
+# Our Site is being hosted @ Github.
 
-![](./particle.jpg)
 
-This site uses Jekyll Theme. We are thankful for making their theme Free.
+
+This site uses Jekyll Theme. We are thankful for making their theme Free. Thankns to Nathan Randecker as well.
 
