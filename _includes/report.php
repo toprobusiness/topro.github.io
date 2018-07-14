@@ -56,5 +56,4 @@ HTML;
   <body><center>{$html}</center></body>
 </html>
 HTML;
-
 ?>
