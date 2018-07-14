@@ -1,34 +1,16 @@
 <div class="user-details">
-    <h1> Projects I'm working On </h1>
+  <h1> Our Projects </h1>
+  <p> {{site.user_description}} </p>
 </div>
-<div class="user-projects">
-    <div class="images-right">
-        <script async src="https://telegram.org/js/telegram-widget.js?4" data-telegram-login="ToproSecureBot" data-size="large" data-onauth="onTelegramAuth(user)" data-request-access="write"></script>
+
+<div class="user">
+    <div class="tech">
+      <h2>Design</h2>
+      <script async src="https://telegram.org/js/telegram-widget.js?4" data-telegram-login="ToproSecureBot" data-size="large" data-onauth="onTelegramAuth(user)" data-request-access="write"></script>
         <script type="text/javascript">
             function onTelegramAuth(user) {
                 alert('Logged in as ' + user.first_name + ' ' + user.last_name + ' (' + user.id + (user.username ? ', @' + user.username : '') + ')');
             }
         </script>
+      <p><br>Thanks for the free hosting and codes. Tutorials was great and made everything easy.</p>
     </div>
-    <div class="contents">
-        <h3> Telegram Channel </h3>
-        <ul>
-            <li> Featured Skills</li>
-        </ul>
-        <p>Started a Telegram channel for cars. @Toprocars Check our channel. Currently at minimum but where else will this go but up. Come back in the coming days.</p>
-        <a class="project-link" href="#">Check it out</a>
-    </div>
-</div>
-<div class="user-projects">
-    <div class="images-left">
-        <img alt="mountains" src="{{ "/assets/img/skate.jpg" | prepend: site.baseurl }}" />
-    </div>
-    <div class="contents-right">
-        <h3> Project Title </h3>
-        <ul>
-            <li> Featured Skills</li>
-        </ul>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        <a class="project-link" href="#">Check it out</a>
-    </div>
-</div>
