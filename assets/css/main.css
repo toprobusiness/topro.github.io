@@ -8,3 +8,10 @@
 .tgme_widget_login.large button.tgme_widget_login_button {
     background-color: #555 !important;   
 }
+.telegram {
+    background: #555;
+    padding: 10px 0;
+    margin-top: 100px;
+    text-align: center;
+    color: #fff;
+}
