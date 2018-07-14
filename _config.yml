@@ -16,6 +16,6 @@ Telegram:https://goo.gl/CrUo7j
 
 # Google-analytics
 google-analytics:
-  id: ""
+  id: "UA-122311105-1"
 
 exclude: ['package.json', 'src' , 'node_modules']
