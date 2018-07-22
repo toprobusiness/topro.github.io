@@ -9,12 +9,12 @@ username: Topro
 user_description: Source . Negotiate . Trade . Sell
 user_title: A Local Business
 email: support@topro.business
-twitter_username: topro_business
+twitter_username: topro_updates
 gplus_username:  topro
 
 
 # Google-analytics
 google-analytics:
-  id: "UA-122311105-1"
+  id: "UA-122730651-1"
 
 exclude: ['package.json', 'src' , 'node_modules']
