@@ -18,6 +18,7 @@ button.tgme_widget_login_button {
 bodyText{
     padding: 50px !important;}
 
-FooterText{
-    font-size: 50% !important;}
+.FooterText{
+    font-size: 50% !important;
+    margin-top: 50px !important;}
     
