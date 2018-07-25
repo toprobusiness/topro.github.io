@@ -1314,7 +1314,7 @@ canvas {
 body {
   background: #fff;
   color: #222;
-  font-family: Cardo,serif;
+  font-family: 'Raleway', sans-serif;
   min-width: 315px;
   overflow-x: hidden;
   font-smooth: always;
@@ -2935,7 +2935,7 @@ body {
 .h1,.h2,.h3,.h4,.h5,.h6,.h7,h1,h2,h3,h4,h5,h6,h7 {
   line-height: normal;
   letter-spacing: normal;
-  font-family: Open Sans Condensed,sans-serif;
+  font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   color: #000
@@ -3114,7 +3114,7 @@ dd:after {
 
 .ampstart-input input::-webkit-input-placeholder,.ampstart-input input[type=email],.ampstart-input input[type=text],.ampstart-input label,textarea {
   font-size: .94rem;
-  font-family: Open Sans Condensed,sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: #222;
   font-weight: 700;
   text-transform: uppercase
@@ -3122,7 +3122,7 @@ dd:after {
 
 .ampstart-input input::-moz-placeholder,.ampstart-input input[type=email],.ampstart-input input[type=text],.ampstart-input label,textarea {
   font-size: .94rem;
-  font-family: Open Sans Condensed,sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: #222;
   font-weight: 700;
   text-transform: uppercase
