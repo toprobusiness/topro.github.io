@@ -7,7 +7,7 @@ const App = () => (
   <div className="App">
     <header className="App-header">
       <img src={icon} className="App-logo" alt="icon" />
-      <h1 className="App-title">Welcome to the push-notification demo !</h1>
+      <h1 className="App-title">Hi There. We can send you Push Notification if something gets updated !</h1>
     </header>
     <button onClick={askForPermissioToReceiveNotifications} >
       Click here to receive notifications
