@@ -1,7 +1,7 @@
 /*! Bassplate | MIT License | http://github.com/basscss/bassplate */
 
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */html {
-  font-family: 'Open Sans', sans-serif;
+  font-family: sans-serif;
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%
@@ -35,7 +35,7 @@ hr {
 }
 
 pre {
-  font-family: 'Open Sans', sans-serif;
+  font-family: monospace,monospace;
   font-size: 1em
 }
 
@@ -110,7 +110,7 @@ svg:not(:root) {
 }
 
 button,input,optgroup,select,textarea {
-  font-family: 'Open Sans', sans-serif;
+  font-family: sans-serif;
   font-size: 100%;
   line-height: 1.15;
   margin: 0
@@ -1314,7 +1314,7 @@ canvas {
 body {
   background: #fff;
   color: #222;
-  font-family: 'Open Sans', sans-serif;
+  font-family: Cardo,serif;
   min-width: 315px;
   overflow-x: hidden;
   font-smooth: always;
@@ -2935,7 +2935,7 @@ body {
 .h1,.h2,.h3,.h4,.h5,.h6,.h7,h1,h2,h3,h4,h5,h6,h7 {
   line-height: normal;
   letter-spacing: normal;
-  font-family: 'Open Sans', sans-serif;
+  font-family: Open Sans Condensed,sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   color: #000
@@ -3114,7 +3114,7 @@ dd:after {
 
 .ampstart-input input::-webkit-input-placeholder,.ampstart-input input[type=email],.ampstart-input input[type=text],.ampstart-input label,textarea {
   font-size: .94rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: Open Sans Condensed,sans-serif;
   color: #222;
   font-weight: 700;
   text-transform: uppercase
@@ -3122,7 +3122,7 @@ dd:after {
 
 .ampstart-input input::-moz-placeholder,.ampstart-input input[type=email],.ampstart-input input[type=text],.ampstart-input label,textarea {
   font-size: .94rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: Open Sans Condensed,sans-serif;
   color: #222;
   font-weight: 700;
   text-transform: uppercase
@@ -3130,7 +3130,7 @@ dd:after {
 
 .ampstart-input input:-ms-input-placeholder,.ampstart-input input[type=email],.ampstart-input input[type=text],.ampstart-input label,textarea {
   font-size: .94rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: Open Sans Condensed,sans-serif;
   color: #222;
   font-weight: 700;
   text-transform: uppercase
@@ -3138,7 +3138,7 @@ dd:after {
 
 .ampstart-input input::placeholder,.ampstart-input input[type=email],.ampstart-input input[type=text],.ampstart-input label,textarea {
   font-size: .94rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: Open Sans Condensed,sans-serif;
   color: #222;
   font-weight: 700;
   text-transform: uppercase
@@ -3164,7 +3164,7 @@ dd:after {
 }
 
 .ampstart-input-radio label {
-  font-family: 'Open Sans', sans-serif;
+  font-family: Cardo,serif;
   font-weight: 400;
   text-transform: none;
   color: #222;
@@ -3179,7 +3179,7 @@ dd:after {
   border-color: #222;
   display: inline-block;
   font-size: .8rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: Open Sans Condensed,sans-serif;
   font-weight: 700;
   padding: .5rem 2rem;
   -webkit-transition: background-color .2s ease-in,color .2s ease-in;
@@ -3244,7 +3244,7 @@ amp-selector [option][selected] {
 }
 
 .commerce-pullquote-author,.commerce-table {
-  font-family: 'Open Sans', sans-serif;
+  font-family: Open Sans Condensed,sans-serif;
   font-weight: 700
 }
 
@@ -3420,7 +3420,7 @@ amp-selector [option][selected] {
 }
 
 .ampstart-nav-link {
-  font-family: 'Open Sans', sans-serif;
+  font-family: Open Sans Condensed,sans-serif;
   font-size: 1.75rem;
   font-weight: 700;
   line-height: normal;
@@ -3460,7 +3460,7 @@ amp-selector [option][selected] {
 .ampstart-sidebar-faq {
   width: 100%;
   color: #222;
-  font-family: 'Open Sans', sans-serif;
+  font-family: Cardo,serif;
   padding-top: 1rem
 }
 
@@ -3511,7 +3511,7 @@ amp-selector [option][selected] {
 
 .commerce-hero-content-body {
   padding: 1rem 1rem 1.5rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: Cardo,serif;
   width: 100%;
   max-width: 500px;
   margin: 0 auto
