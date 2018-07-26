@@ -6,6 +6,8 @@
   <script async src="https://cdn.ampproject.org/v0.js"></script>
   
 <title>Topro</title>
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 <link rel="canonical" href="https://topro.business">
 <link rel=”amphtml” href=”https://topro.business/index.amp.html" />
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">    
